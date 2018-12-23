@@ -2,7 +2,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background: url('/img/armenia.jpg') no-repeat;
+  background: url('/img/london.jpg') no-repeat;
 }
 
 main {
