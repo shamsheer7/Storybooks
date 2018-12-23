@@ -121,7 +121,7 @@ router.put('/:id', (req, res) => {
   })
   .then(story => {
     let allowComments;
-    
+
     if(req.body.allowComments){
       allowComments = true;
     } else {

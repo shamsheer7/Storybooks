@@ -14,7 +14,7 @@
       {{#each stories}}
         <tr>
           <td><a href="/stories/show/{{id}}">{{title}}</a></td>
-          <td>{{formatDate data 'MMMM do YYYY'}}</td>
+          <td>{{formatDate data 'MMMM DD YYYY'}}</td>
           <td><span class="dash-status">{{status}}</span></td>
           <td>
             <a class="btn left-align" href="/stories/edit/{{id}}"><i class="fa fa-pencil"></i> Edit</a>
@@ -29,6 +29,5 @@
     </tbody>
   </table>
 {{else}}
-  <p>You have not created any stories yet</p>
-  <h4>Click the Red Button at the bottom right corner to Add your Story<h4>
+  <h5>Click the Red Button at the bottom right corner to add your story<h5>
 {{/if}}
